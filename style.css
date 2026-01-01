@@ -24,10 +24,12 @@ img.cover-wave {
 }
 
 .content-container {
-  border-left: 2rem solid white;
-  border-right: 2rem solid white;
-  border-bottom: 1.5rem solid white;
   border-radius: 0 0 0.75rem 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.content-container > * {
+  padding: 0 2rem;
 }
 
 h1.article-title {
@@ -73,6 +75,6 @@ div.author-info h1 {
 
 p.author-info {
   margin-top: 0;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #4A5567;
 }

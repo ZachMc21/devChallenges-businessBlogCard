@@ -22,7 +22,48 @@ img.cover-wave {
   left: 0;
 }
 
+.content-container {
+  border-left: 2rem solid white;
+  border-right: 2rem solid white;
+  border-bottom: 1.5rem solid white;
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
 h1.article-title {
   font-family: "Poppins", Verdana, sans-serif;
   font-size: 1.5rem;
+  font-variant: bold;
+}
+
+.summary {
+  margin-bottom: 2rem;
+}
+
+.summary p {
+  line-height: 1.5rem;
+  color: #4A5567;
+}
+
+div.author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+div.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+div.author-info h1 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+p.author-info {
+  margin-top: 0;
+  font-size: 0.75rem;
+  color: #4A5567;
 }

@@ -14,6 +14,7 @@ main {
   top: 0;
   left: 0;
   height: 17.5rem;
+  border-radius: 2rem;
 }
 
 img.cover-wave {
@@ -36,11 +37,13 @@ h1.article-title {
 }
 
 .summary {
-  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid #F2F5F9;
 }
 
 .summary p {
-  line-height: 1.5rem;
+  margin-bottom: 0;
+  font-size: 1rem;
   color: #4A5567;
 }
 
@@ -49,6 +52,12 @@ div.author-container {
   flex-direction: row;
   align-items: center;
   gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+img.author-avatar {
+  border: 0.25rem solid #F2F5F9;
+  border-radius: 50%;
 }
 
 div.author-info {

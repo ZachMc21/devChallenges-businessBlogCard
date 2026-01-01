@@ -1,0 +1,28 @@
+html {
+  font-family: "Lato", Verdana, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 7.75rem auto 0 auto;
+  width: 26.125rem;
+}
+
+.cover-container, img.cover-hero {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 17.5rem;
+}
+
+img.cover-wave {
+  position: relative;
+  top: -4rem;
+  left: 0;
+}
+
+h1.article-title {
+  font-family: "Poppins", Verdana, sans-serif;
+  font-size: 1.5rem;
+}

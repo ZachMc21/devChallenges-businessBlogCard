@@ -26,9 +26,14 @@
 
 <main>
   <div class="cover-container">
-    <img class="cover-hero" src="images/hero-image.jpg" alt="A waitstaff employee handing a payment card to a customer, viewed through a glass wall."
-        width="418" height="280" >
-    <img class="cover-wave" src="images/white-overlay.svg" alt="A white wave curve that makes the bottom edge of the waitstaff payment image." width="418" height="68" />
+    <img class="cover-hero" src="images/hero-image.jpg"
+      srcset="images/hero-image.jpg 418w, images/hero-image-sm.jpg 209w"
+      sizes="(max-width: 640px) 90vw, (min-width: 1024px) 30vw"
+      alt="A waitstaff employee handing a payment card to a customer, viewed through a glass wall.">
+    <img class="cover-wave" src="images/white-overlay.svg"
+      srcset="images/white-overlay.svg 418w, images/white-overlay.svg 209w"
+      sizes="(max-width: 640px) 90vw, (min-width: 1024px) 30vw"
+      alt="A white wave curve that makes the bottom edge of the waitstaff payment image."/>
   </div>
 
   <div class="content-container">
